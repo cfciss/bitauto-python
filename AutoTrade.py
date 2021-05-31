@@ -78,4 +78,4 @@ while True:
     #상태 출력
     print(f"현재 시간: {now} 목표가: {target_price} 현재가: {current_price}")
     post_message(myToken,"#stock", f"목표가: {target_price} 현재가: {current_price}")
-    time.sleep(3600)
+    time.sleep(5)
