@@ -3,12 +3,9 @@ import pyupbit
 import datetime
 import requests
 
-f = open("upbit.txt")
-lines = f.readlines()
-access = lines[0].strip()   # access key
-secret = lines[1].strip()   # secret key
-myToken = lines[2].strip()  
-f.close()
+access = 'AFkZMK622qxL51QoCVnAkjuwXDLa3mAZR5TPKu5f'   # access key
+secret = 'ddTfsunN9wMe7inLIFcLYTlJzEUgCa1xyzs4tMLr'   # secret key
+myToken = 'xoxb-2068523385856-2044934993315-n3WTQFF8pgdfbdbuNrVfuamO' 
 
 def post_message(token, channel, text):
     """슬랙 메시지 전송"""
